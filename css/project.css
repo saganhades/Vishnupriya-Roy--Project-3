@@ -43,7 +43,18 @@ body {
 h1 {
   font-size: 4em;
   background-color: green;
+  text-align: center;
 }
+
+ .map{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 450px;
+    border: 0;
+ }
 
 h2 {
   font-size: 3em;
